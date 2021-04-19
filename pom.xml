@@ -7,7 +7,7 @@
 
   <version>1.0.1</version>
   <name>k2hash</name>
-  <description>An official java driver for k2hash, which is a highly available and scalable distributed KVS clustering system.</description>
+  <description>An official java driver for k2hash, which is a highly available and scalable distributed KVS library.</description>
   <url>https://github.com/hiwakaba/k2hash_java</url>
 
   <licenses>
@@ -173,7 +173,7 @@
         <version>${exec-maven-plugin.version}</version>
         <executions>
           <execution>
-            <id>Configures local k2hash cluster for test</id>
+            <id>Configures local k2hash filedb for test</id>
             <goals>
               <goal>exec</goal>
             </goals>
