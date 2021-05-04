@@ -319,8 +319,7 @@ public class K2hashFileTest {
       db.setEncryptionPasswordFile("password.txt");
       assertTrue(false);
     } catch (IOException e) {
-      System.out.println("IOException " + e.getMessage());
-      assertFalse(true);
+      assertTrue(true);
     }
   }
 
